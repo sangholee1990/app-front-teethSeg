@@ -261,7 +261,7 @@ class _CaptureScreenState extends State<CaptureScreen> {
             children: <Widget>[
               ListTile(
                 leading: const Icon(Icons.photo_library_rounded),
-                title: const Text('갤러리에서 선택'),
+                title: const Text('갤러리 선택'),
                 onTap: () {
                   Navigator.of(context).pop();
                   _pickImage(ImageSource.gallery);
@@ -269,7 +269,7 @@ class _CaptureScreenState extends State<CaptureScreen> {
               ),
               ListTile(
                 leading: const Icon(Icons.camera_alt_rounded),
-                title: const Text('카메라로 촬영'),
+                title: const Text('카메라 촬영'),
                 onTap: () {
                   Navigator.of(context).pop();
                   _pickImage(ImageSource.camera);
