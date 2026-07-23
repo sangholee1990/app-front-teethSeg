@@ -1,4 +1,4 @@
-package com.example.teeth_segmentation
+package com.bdwide.teeth_seg
 
 import io.flutter.embedding.android.FlutterActivity
 
